@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="620" viewBox="0 0 1800 620">
+ <defs>
+  <linearGradient id="silver" x1="0" y1="0" x2="0.9" y2="1">
+   <stop offset="0" stop-color="#f1eee8"/>
+   <stop offset="0.45" stop-color="#a9a8aa"/>
+   <stop offset="1" stop-color="#656a72"/>
+  </linearGradient>
+  <linearGradient id="red" x1="0" y1="0" x2="1" y2="1">
+   <stop offset="0" stop-color="#ff625c"/>
+   <stop offset="1" stop-color="#74141d"/>
+  </linearGradient>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+   <feGaussianBlur stdDeviation="9" result="b"/>
+   <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+ </defs>
+ <!-- emblem -->
+ <g transform="translate(60,55)">
+  <path d="M210 15 C112 15 45 92 45 193 L45 430 L375 430 L375 193 C375 92 308 15 210 15Z" fill="none" stroke="url(#silver)" stroke-width="8"/>
+  <path d="M210 42 C132 42 78 104 78 193 L78 397 L342 397 L342 193 C342 104 288 42 210 42Z" fill="none" stroke="#555b64" stroke-width="3"/>
+  <path d="M210 86 C141 86 112 142 112 206 L112 397 L308 397 L308 206 C308 142 279 86 210 86Z" fill="#101319" stroke="#8c9097" stroke-width="3"/>
+  <circle cx="210" cy="189" r="73" fill="#6f101b" opacity=".45" filter="url(#glow)"/>
+  <circle cx="210" cy="180" r="62" fill="url(#red)"/>
+  <circle cx="231" cy="158" r="61" fill="#101319"/>
+  <path d="M210 250 L210 369" stroke="url(#red)" stroke-width="5" filter="url(#glow)"/>
+  <path d="M155 397 L210 335 L265 397" fill="none" stroke="#a4a2a2" stroke-width="3"/>
+  <path d="M45 193 L15 222 M375 193 L405 222" stroke="url(#silver)" stroke-width="5"/>
+  <path d="M45 265 L15 280 M375 265 L405 280" stroke="#74141d" stroke-width="4"/>
+  <path d="M210 15 L210 -12 M193 4 L210 -18 L227 4" fill="none" stroke="url(#silver)" stroke-width="4"/>
+  <path d="M92 430 L60 466 M328 430 L360 466" stroke="#8b1723" stroke-width="4"/>
+ </g>
+ <!-- separator -->
+ <line x1="520" y1="100" x2="520" y2="520" stroke="#5d6068" stroke-width="2"/>
+ <line x1="536" y1="100" x2="536" y2="520" stroke="#7a1721" stroke-width="2"/>
+ <!-- wordmark -->
+ <text x="620" y="300" fill="url(#silver)" font-family="Noto Serif, Georgia, serif" font-size="142" letter-spacing="20" font-weight="400">NOCTURNE</text>
+ <path d="M625 350 H1580" stroke="#7f1722" stroke-width="4"/>
+ <path d="M625 366 H1580" stroke="#555b64" stroke-width="2"/>
+ <text x="630" y="440" fill="#d6d0ca" font-family="Noto Serif, Georgia, serif" font-size="48" letter-spacing="8">RELICS OF THE SILENT CITY</text>
+ <text x="635" y="510" fill="#9b9ba0" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" letter-spacing="8">ART BEYOND TIME</text>
+</svg>
